@@ -1,0 +1,57 @@
+body {
+  background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0f0c29, #302b63, #24243e); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 0px;
+  margin:0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+h1, h2, h3, h4, p{
+  color: white;
+}
+a {
+  color: #00B7FF;
+}
+
+.mobile-nav{
+  margin:0px;
+  padding: 0px;
+  position: fixed;
+  width: 250px;
+  height: 100%;
+  background-color: #151719;
+  left: -250px;
+  transition: all 500ms linear;
+  z-index: 99999;
+}
+.toggle{
+  left:0px;
+}
+.mobile-nav ul{
+  margin: 0px;
+  padding: 0px;
+}
+.mobile-nav ul li{
+  list-style: none;
+  font-size: 25px;
+  color: white;
+  padding: 15px 10px;
+  border-bottom:1px solid rgba(100,100,100, 0.3);
+}
+.mobile-nav ul li a{
+  text-decoration: none;
+  color:white;
+}
+.mobile-nav .toggle-menu{
+  position : absolute;
+  left: 280px;
+  top: 20px;
+}
+
+.mobile-nav .toggle-menu span{
+  display: block;
+  width: 30px;
+  height: 7px;
+  background-color: white;
+  margin: 5px 00px;;
+}
